@@ -3,10 +3,10 @@ public class Shirt {
 
     public int shirtID = 120370;
     public String description = "Very beautiful";
-    // коди кольорів: R=червоний, B=синій, G=зелений, U=невідомо
-    public char colorCode = 'U';
+    
+    public String colorCode = "Red";
     public double price = 10.20;
-    public int quantityInStock = 0;
+    public int quantityInStock = 10;
 
     public void displayShirtInformation() {
         System.out.println("Shirt ID: " + shirtID);
